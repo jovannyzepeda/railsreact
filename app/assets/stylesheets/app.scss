@@ -1,0 +1,30 @@
+@import 'partials/sass-material-colors-classes';
+@import 'partials/sass-material-colors';
+
+
+.bg-color-white{
+	background-color: white;
+}
+.color-white{
+	color: white;
+}
+.card{
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px px rgba(0,0,0,0.24)
+}
+.full-page-height-vh{
+	height: 100vh;
+}
+.navbar.main{
+	border-radius: 0px;
+	margin-bottom: 0px;
+	a{
+		color: white;
+		&:hover{
+			color: #7986cb;
+		}
+	}
+}
+.padding{
+	padding: 10px 15px;
+}
